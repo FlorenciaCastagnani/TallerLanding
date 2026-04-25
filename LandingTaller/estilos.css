@@ -1,0 +1,123 @@
+html{
+    background-color: #2C191D;
+    
+}
+
+body{
+    margin: 0px;
+}
+
+footer{
+    background-color: #2C191D;
+    color: #E4C599;
+    border-top: #D15231 solid 4px;
+}
+header{
+    background-color: #E4C599;
+    margin: 0px;
+}
+
+h1{
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    font-size: 64px;
+}
+
+h3{
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    font-size: 24px;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+/** SECCIONES **/
+
+.Portada{
+    background-image: url('./imagenes/portada.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    color: #2C191D;
+
+    padding: 120px 64px 120px 64px;
+}
+
+
+.seccion1{
+    background-color: #6E602F ;
+    margin: 0;
+    padding: 64;
+    height: 100vh; 
+    border-top: #2C191D solid 4px;
+
+}
+
+.seccion2{
+    background-color: #E4C599;
+    margin: 0;
+    padding: 64;
+    height: 50vh; 
+    border-top: #2C191D solid 4px;
+}
+
+.seccion3{
+    background-color: #E4C599;
+    margin: 0;
+    padding: 64;
+    height: 100vh; 
+    border-top: #2C191D solid 4px;
+}
+
+.seccion4{
+    background-color: #F69A45;
+    margin: 0;
+    padding: 64;
+    height: 100vh; 
+    border-top: 0px 0 8px 8px #2C191D solid 4px;
+}
+
+.tarjeta{
+    background-color: #E4C599;
+    box-shadow: 8px 8px #2C191D;
+    border-radius: 8px;
+    width: 414px;
+    height: 434px;
+    padding: 38;
+    margin: 38px; 
+}
+
+.tarjeta img{
+   /** width: 90%; **/
+    border: 4px solid #2C191D;
+    align-items: center;
+
+}
+
+.contenedorTarjetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 48px;
+
+    flex-wrap: wrap;
+    
+}
+
+
+.formulario{
+    background-color: #2C191D;
+    margin: 0;
+    color: #E4C599;
+
+}
